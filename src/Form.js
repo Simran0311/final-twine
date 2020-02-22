@@ -167,6 +167,7 @@ export default class Form extends React.Component {
             <input
              type="text"
             name="title"
+            className="form-control"
             // onBlur={this.validateTitle}
             // className={`form-control ${this.state. titleError ? 'is-invalid':''}`}
             />
@@ -177,6 +178,7 @@ export default class Form extends React.Component {
             <input
              type="text"
             name="techStack"
+            className="form-control"
             // onBlur={this.validateTechStack}
             // className={`form-control ${this.state. techStackError? 'is-invalid':''}`}
             />
@@ -185,6 +187,7 @@ export default class Form extends React.Component {
         <div className="form-group">
             <label>message</label>
             <textarea name="message"
+            className="form-control"
             // onBlur={this.validateMessage}
             // className={`form-control ${this.state. messageError ? 'is-invalid':''}`}
             >

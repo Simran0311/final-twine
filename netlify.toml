@@ -1,9 +1,3 @@
-[Settings]
- 
-
-[Build]
-  Publish = ""
-  Functions = ""
 
 [[redirects]]
   from = "/*"
