@@ -146,6 +146,7 @@ export default class Form extends React.Component {
             <input
             type="text"
             name="userName"
+            className="form-control"
             // onBlur={this. validateName}
 
             // className={`form-control ${this.state. userNameError ? 'is-invalid':''}`}
@@ -157,6 +158,7 @@ export default class Form extends React.Component {
             <input
             type="email"
             name="email"
+            className="form-control"
             // onBlur={this.validateEmail}
             // className={`form-control ${this.state. emailError ? 'is-invalid':''}`}
             />
